@@ -588,6 +588,22 @@ a {
   -ms-transition: 0.2s;
   transition: 0.2s;
 }
+p {
+  text-indent: 2em;
+}
+p + p {
+  text-indent: 2em;
+}
+article p,
+.post-content p {
+  text-indent: 2em;
+}
+p:not(.no-indent) {
+  text-indent: 2em;
+}
+.post-content p {
+  text-indent: 2em;
+}
 #header {
   height: 250px;
   position: relative;
