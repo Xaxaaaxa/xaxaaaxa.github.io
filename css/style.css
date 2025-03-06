@@ -612,6 +612,10 @@ p:not(.no-indent) {
 .post-content p {
   text-indent: 2em;
 }
+.no-indent p,
+.no-indent {
+  text-indent: 0;
+}
 #header {
   height: 250px;
   position: relative;
